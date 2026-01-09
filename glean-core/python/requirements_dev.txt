@@ -14,3 +14,4 @@ twine==6.0.1
 wheel==0.45.1
 maturin==1.10.2
 patchelf>=0.17; sys_platform == "linux"
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
